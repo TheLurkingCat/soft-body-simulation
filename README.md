@@ -3,12 +3,15 @@
 ## Prerequisite
 
 - [Cmake](https://cmake.org) (version >= 3.16)
+- git
 - Compiler (e.g. GCC)
 
 ## Instruction
 
 - Run:
 ```bash=
+git submodule init
+git submodule update --remote
 cmake -S . -B build
 cmake --build build --config Release --parallel 8
 ```
