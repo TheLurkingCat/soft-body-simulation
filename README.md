@@ -4,12 +4,14 @@
 
 - [Cmake](https://cmake.org) (version >= 3.16)
 - git
+- git-lfs
 - Compiler (e.g. GCC)
 
 ## Instruction
 
 - Run:
 ```bash=
+git clone https://github.com/TheLurkingCat/soft-body-simulation.git
 git submodule init
 git submodule update --remote
 cmake -S . -B build
